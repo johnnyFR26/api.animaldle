@@ -1,0 +1,15 @@
+POST http://localhost:3333/api/testes
+Content-Type: application/json
+
+{
+    "prompt": "Como está o tempo hoje?"
+}
+
+###
+
+POST http://localhost:3333/animals
+Content-Type: application/json
+
+{
+    "animals": ["Elefante", "Tigre", "Bicho-pau"]
+}

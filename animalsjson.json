@@ -1,0 +1,333 @@
+[
+    {
+      "name": "Leão",
+      "characteristics": {
+        "Habitat": "Savana, florestas e pradarias",
+        "Filo": "Chordata",
+        "Estado de conservação": "Vulnerável",
+        "Dieta": "Carnívoro",
+        "Método de reprodução": "Sexuado",
+        "Classe": "Mammalia"
+      }
+    },
+    {
+      "name": "Tigre",
+      "characteristics": {
+        "Habitat": "Florestas, savanas e áreas temperadas",
+        "Filo": "Chordata",
+        "Estado de conservação": "Em perigo",
+        "Dieta": "Carnívoro",
+        "Método de reprodução": "Sexuado",
+        "Classe": "Mammalia"
+      }
+    },
+    {
+      "name": "Elefante",
+      "characteristics": {
+        "Habitat": "Florestas e savanas",
+        "Filo": "Chordata",
+        "Estado de conservação": "Vulnerável",
+        "Dieta": "Herbívoro",
+        "Método de reprodução": "Sexuado",
+        "Classe": "Mammalia"
+      }
+    },
+    {
+      "name": "Girafa",
+      "characteristics": {
+        "Habitat": "Savanas e áreas abertas",
+        "Filo": "Chordata",
+        "Estado de conservação": "Vulnerável",
+        "Dieta": "Herbívoro",
+        "Método de reprodução": "Sexuado",
+        "Classe": "Mammalia"
+      }
+    },
+    {
+      "name": "Zebra",
+      "characteristics": {
+        "Habitat": "Savana e pradarias",
+        "Filo": "Chordata",
+        "Estado de conservação": "Sem ameaça",
+        "Dieta": "Herbívoro",
+        "Método de reprodução": "Sexuado",
+        "Classe": "Mammalia"
+      }
+    },
+    {
+      "name": "Canguru",
+      "characteristics": {
+        "Habitat": "Florestas, savanas e áreas áridas na Austrália",
+        "Filo": "Chordata",
+        "Estado de conservação": "Sem ameaça",
+        "Dieta": "Herbívoro",
+        "Método de reprodução": "Sexuado",
+        "Classe": "Mammalia"
+      }
+    },
+    {
+      "name": "Urso",
+      "characteristics": {
+        "Habitat": "Florestas, tundra e montanhas",
+        "Filo": "Chordata",
+        "Estado de conservação": "Varía por espécie (alguns ameaçados)",
+        "Dieta": "Onívoro",
+        "Método de reprodução": "Sexuado",
+        "Classe": "Mammalia"
+      }
+    },
+    {
+      "name": "Lobo",
+      "characteristics": {
+        "Habitat": "Florestas, tundras e pradarias",
+        "Filo": "Chordata",
+        "Estado de conservação": "Sem ameaça",
+        "Dieta": "Carnívoro",
+        "Método de reprodução": "Sexuado",
+        "Classe": "Mammalia"
+      }
+    },
+    {
+      "name": "Raposa",
+      "characteristics": {
+        "Habitat": "Florestas, campos e áreas urbanas",
+        "Filo": "Chordata",
+        "Estado de conservação": "Sem ameaça",
+        "Dieta": "Onívoro",
+        "Método de reprodução": "Sexuado",
+        "Classe": "Mammalia"
+      }
+    },
+    {
+      "name": "Golfinho",
+      "characteristics": {
+        "Habitat": "Oceano e algumas águas doces",
+        "Filo": "Chordata",
+        "Estado de conservação": "Sem ameaça (dependendo da espécie)",
+        "Dieta": "Carnívoro (peixes e lulas)",
+        "Método de reprodução": "Sexuado",
+        "Classe": "Mammalia"
+      }
+    },
+    {
+      "name": "Baleia",
+      "characteristics": {
+        "Habitat": "Oceano",
+        "Filo": "Chordata",
+        "Estado de conservação": "Varía por espécie (algumas ameaçadas)",
+        "Dieta": "Carnívoro ou filtrador (dependendo da espécie)",
+        "Método de reprodução": "Sexuado",
+        "Classe": "Mammalia"
+      }
+    },
+    {
+      "name": "Pinguim",
+      "characteristics": {
+        "Habitat": "Regiões geladas do Hemisfério Sul",
+        "Filo": "Chordata",
+        "Estado de conservação": "Varía por espécie (alguns ameaçados)",
+        "Dieta": "Carnívoro (peixes e crustáceos)",
+        "Método de reprodução": "Sexuado",
+        "Classe": "Aves"
+      }
+    },
+    {
+      "name": "Ornitorrinco",
+      "characteristics": {
+        "Habitat": "Rios e lagos na Austrália",
+        "Filo": "Chordata",
+        "Estado de conservação": "Sem ameaça",
+        "Dieta": "Carnívoro (insetos e pequenos invertebrados)",
+        "Método de reprodução": "Sexuado",
+        "Classe": "Mammalia"
+      }
+    },
+    {
+      "name": "Jacaré",
+      "characteristics": {
+        "Habitat": "Rios, pântanos e lagos",
+        "Filo": "Chordata",
+        "Estado de conservação": "Varía por espécie (algumas ameaçadas)",
+        "Dieta": "Carnívoro",
+        "Método de reprodução": "Sexuado",
+        "Classe": "Reptilia"
+      }
+    },
+    {
+      "name": "Cobra",
+      "characteristics": {
+        "Habitat": "Diversos habitats, incluindo florestas e desertos",
+        "Filo": "Chordata",
+        "Estado de conservação": "Varía por espécie (algumas ameaçadas)",
+        "Dieta": "Carnívoro",
+        "Método de reprodução": "Sexuado",
+        "Classe": "Reptilia"
+      }
+    },
+    {
+      "name": "Sapo",
+      "characteristics": {
+        "Habitat": "Ambientes úmidos como florestas e áreas alagadas",
+        "Filo": "Chordata",
+        "Estado de conservação": "Varía por espécie (algumas ameaçadas)",
+        "Dieta": "Insetívoro",
+        "Método de reprodução": "Sexuado",
+        "Classe": "Amphibia"
+      }
+    },
+    {
+      "name": "Rinoceronte",
+      "characteristics": {
+        "Habitat": "Savana e florestas",
+        "Filo": "Chordata",
+        "Estado de conservação": "Em perigo",
+        "Dieta": "Herbívoro",
+        "Método de reprodução": "Sexuado",
+        "Classe": "Mammalia"
+      }
+    },
+    {
+      "name": "Hipopótamo",
+      "characteristics": {
+        "Habitat": "Rios e lagoas na África",
+        "Filo": "Chordata",
+        "Estado de conservação": "Vulnerável",
+        "Dieta": "Herbívoro",
+        "Método de reprodução": "Sexuado",
+        "Classe": "Mammalia"
+      }
+    },
+    {
+      "name": "Cavalo",
+      "characteristics": {
+        "Habitat": "Diversos habitats, incluindo pastagens e florestas",
+        "Filo": "Chordata",
+        "Estado de conservação": "Sem ameaça",
+        "Dieta": "Herbívoro",
+        "Método de reprodução": "Sexuado",
+        "Classe": "Mammalia"
+      }
+    },
+    {
+      "name": "Camelo",
+      "characteristics": {
+        "Habitat": "Desertos e regiões áridas",
+        "Filo": "Chordata",
+        "Estado de conservação": "Sem ameaça",
+        "Dieta": "Herbívoro",
+        "Método de reprodução": "Sexuado",
+        "Classe": "Mammalia"
+      }
+    },
+    {
+      "name": "Macaco",
+      "characteristics": {
+        "Habitat": "Diversos habitats, incluindo florestas e savanas",
+        "Filo": "Chordata",
+        "Estado de conservação": "Varía por espécie (alguns ameaçados)",
+        "Dieta": "Onívoro",
+        "Método de reprodução": "Sexuado",
+        "Classe": "Mammalia"
+      }
+    },
+    {
+      "name": "Tartaruga",
+      "characteristics": {
+        "Habitat": "Rios, lagos, mares e terras",
+        "Filo": "Chordata",
+        "Estado de conservação": "Varía por espécie (algumas ameaçadas)",
+        "Dieta": "Herbívoro ou onívoro (dependendo da espécie)",
+        "Método de reprodução": "Sexuado",
+        "Classe": "Reptilia"
+      }
+    },
+    {
+      "name": "Águia",
+      "characteristics": {
+        "Habitat": "Diversos habitats, incluindo montanhas e florestas",
+        "Filo": "Chordata",
+        "Estado de conservação": "Varía por espécie (algumas ameaçadas)",
+        "Dieta": "Carnívoro",
+        "Método de reprodução": "Sexuado",
+        "Classe": "Aves"
+      }
+    },
+    {
+      "name": "Coruja",
+      "characteristics": {
+        "Habitat": "Diversos habitats, incluindo florestas e áreas abertas",
+        "Filo": "Chordata",
+        "Estado de conservação": "Varía por espécie (algumas ameaçadas)",
+        "Dieta": "Carnívoro",
+        "Método de reprodução": "Sexuado",
+        "Classe": "Aves"
+      }
+    },
+    {
+      "name": "Tigre Branco",
+      "characteristics": {
+        "Habitat": "Florestas e savanas",
+        "Filo": "Chordata",
+        "Estado de conservação": "Em perigo",
+        "Dieta": "Carnívoro",
+        "Método de reprodução": "Sexuado",
+        "Classe": "Mammalia"
+      }
+    },
+    {
+      "name": "Lince",
+      "characteristics": {
+        "Habitat": "Florestas e áreas montanhosas",
+        "Filo": "Chordata",
+        "Estado de conservação": "Varía por espécie (alguns ameaçados)",
+        "Dieta": "Carnívoro",
+        "Método de reprodução": "Sexuado",
+        "Classe": "Mammalia"
+      }
+    },
+    {
+      "name": "Falcão",
+      "characteristics": {
+        "Habitat": "Diversos habitats, incluindo florestas e campos",
+        "Filo": "Chordata",
+        "Estado de conservação": "Varía por espécie (alguns ameaçados)",
+        "Dieta": "Carnívoro",
+        "Método de reprodução": "Sexuado",
+        "Classe": "Aves"
+      }
+    },
+    {
+      "name": "Guaxinim",
+      "characteristics": {
+        "Habitat": "Florestas e áreas urbanas",
+        "Filo": "Chordata",
+        "Estado de conservação": "Sem ameaça",
+        "Dieta": "Onívoro",
+        "Método de reprodução": "Sexuado",
+        "Classe": "Mammalia"
+      }
+    },
+    {
+      "name": "Coiote",
+      "characteristics": {
+        "Habitat": "Diversos habitats, incluindo desertos e florestas",
+        "Filo": "Chordata",
+        "Estado de conservação": "Sem ameaça",
+        "Dieta": "Carnívoro",
+        "Método de reprodução": "Sexuado",
+        "Classe": "Mammalia"
+      }
+    },
+    {
+      "name": "Tamanduá",
+      "characteristics": {
+        "Habitat": "Florestas e savanas",
+        "Filo": "Chordata",
+        "Estado de conservação": "Varía por espécie (algumas ameaçadas)",
+        "Dieta": "Insetívoro",
+        "Método de reprodução": "Sexuado",
+        "Classe": "Mammalia"
+      }
+    }
+  ]
+  
