@@ -10,6 +10,7 @@
 import router from '@adonisjs/core/services/router'
 const Iacontroller = () => import('#controllers/ia_controller')
 const AnimalsController = () => import('#controllers/animals_controller')
+const UsersController = () => import('#controllers/users_controller')
 
 router.get('/', async () => {
   return {
@@ -18,3 +19,6 @@ router.get('/', async () => {
 })
 router.post('/api/chatgpt', [Iacontroller, 'index'])
 router.post('animals', [AnimalsController, 'store'])
+router.post('/user', [UsersController, 'store'])
+router.post('/login', [UsersController, 'login'])
+router.get('/user', [UsersController, 'index'])

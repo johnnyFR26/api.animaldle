@@ -13,3 +13,22 @@ Content-Type: application/json
 {
     "animals": ["Elefante", "Tigre", "Bicho-pau"]
 }
+
+###
+
+POST http://localhost:3333/user
+Content-Type: application/json
+
+{
+    "fullName": "Jotinha do Grau", "phone": "3414324", "password": "1234"
+}
+
+###
+
+POST http://localhost:3333/login
+Content-Type: application/json
+
+{
+     "fullName": "Jotinha do Grau", "phone": "3414324", "password": "1234"
+}
+
