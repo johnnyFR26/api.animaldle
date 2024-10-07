@@ -1,12 +1,18 @@
 import { DateTime } from 'luxon'
-import { BaseModel, column, hasMany } from '@adonisjs/lucid/orm'
-import Animal from './animal.js'
-import type { HasMany } from '@adonisjs/lucid/types/relations'
-import User from './user.js'
+import { BaseModel, column, belongsTo } from '@adonisjs/lucid/orm'
+import type { BelongsTo } from '@adonisjs/lucid/types/relations'
+import Animal from '#models/animal'
+import User from '#models/user'
 
 export default class Game extends BaseModel {
   @column({ isPrimary: true })
   declare id: number
+
+  @column()
+  declare animalId: number
+
+  @column()
+  declare userId: number
 
   @column.dateTime({ autoCreate: true })
   declare createdAt: DateTime
@@ -14,9 +20,9 @@ export default class Game extends BaseModel {
   @column.dateTime({ autoCreate: true, autoUpdate: true })
   declare updatedAt: DateTime
 
-  @hasMany(() => Animal)
-  declare animalId: HasMany<typeof Animal>
+  @belongsTo(() => Animal)
+  declare animal: BelongsTo<typeof Animal>
 
-  @hasMany(() => User)
-  declare userId: HasMany<typeof User>
+  @belongsTo(() => User)
+  declare user: BelongsTo<typeof User>
 }

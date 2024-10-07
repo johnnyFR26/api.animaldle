@@ -14,6 +14,7 @@ const GamesController = () => import('#controllers/games_controller')
 
 router.post('/api/chatgpt', [Iacontroller, 'index'])
 router.post('animals', [AnimalsController, 'store'])
+router.post('animals/create', [AnimalsController, 'create'])
 router.post('/user', [UsersController, 'store'])
 router.post('/login', [UsersController, 'login'])
 router.get('/user', [UsersController, 'index'])

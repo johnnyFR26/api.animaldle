@@ -30,4 +30,10 @@ export default class AnimalsController {
       return response.status(500).json({ error: 'Erro ao processar a solicitação do ChatGPT' })
     }
   }
+
+  async create({ request, response }: HttpContext) {
+    const { name, characteristics } = request.only(['name', 'characteristics'])
+    const animal = await Animal.create({ name, characteristics })
+    return response.created(animal)
+  }
 }
