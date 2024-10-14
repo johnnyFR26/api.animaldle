@@ -36,4 +36,9 @@ export default class AnimalsController {
     const animal = await Animal.create({ name, characteristics })
     return response.created(animal)
   }
+
+  async index({ response }: HttpContext) {
+    const animals = await Animal.all()
+    return response.ok(animals)
+  }
 }

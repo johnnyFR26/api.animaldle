@@ -32,3 +32,20 @@ Content-Type: application/json
     "phone": "22", "password": "4321"
 }
 
+###
+
+POST http://localhost:3333/animals/create
+Content-Type: application/json
+
+{
+      "name": "Leão",
+      "characteristics": {
+        "Habitat": "Savana, florestas e pradarias",
+        "Filo": "Chordata",
+        "Estado de conservação": "Vulnerável",
+        "Dieta": "Carnívoro",
+        "Método de reprodução": "Sexuado",
+        "Classe": "Mammalia"
+      }
+}
+
