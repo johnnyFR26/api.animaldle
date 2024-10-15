@@ -16,6 +16,11 @@ Content-Type: application/json
 
 ###
 
+POST http://localhost:3333/animals/destroy
+
+###
+
+
 POST http://localhost:3333/user
 Content-Type: application/json
 

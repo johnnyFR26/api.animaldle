@@ -5,29 +5,29 @@ import axios from 'axios'
 
 export default class AnimalsController {
   async store({ request, response }: HttpContext) {
-    const animalNames = request.input('animals')
-
-    if (!Array.isArray(animalNames)) {
-      return response.status(400).json({ error: 'Invalid input: animals must be an array' })
-    }
-
     try {
-      const iaResponse = await axios.post('http://localhost:3333/api/chatgpt', {
-        prompt: animalNames,
+      // Usando import dinâmico para carregar o JSON
+      const animalsData = await import('../../animalsjson.json', {
+        assert: { type: 'json' },
       })
 
-      const animalsDatas = iaResponse.data
-
-      for (const animalData of animalsDatas) {
-        await Animal.create({
-          name: animalData.name,
-          characteristics: animalData.characteristics,
-        })
-        return response.created({ success: true, data: animalsDatas })
+      if (Array.isArray(animalsData.default)) {
+        for (const animal of animalsData.default) {
+          // Cadastrando os animais no banco de dados
+          await Animal.create({
+            name: animal.name,
+            characteristics: animal.characteristics,
+          })
+        }
+        return response
+          .status(201)
+          .send({ message: `Animais cadastrados com sucesso! ${new Date()}` })
+      } else {
+        return response.status(400).send({ error: 'O arquivo JSON não contém um array válido.' })
       }
     } catch (error) {
-      console.error('Error:', error)
-      return response.status(500).json({ error: 'Erro ao processar a solicitação do ChatGPT' })
+      console.error('Erro ao carregar o arquivo JSON:', error)
+      return response.status(500).send({ error: 'Erro ao carregar o arquivo JSON.' })
     }
   }
 
@@ -40,5 +40,11 @@ export default class AnimalsController {
   async index({ response }: HttpContext) {
     const animals = await Animal.all()
     return response.ok(animals)
+  }
+
+  async destroy({ response }: HttpContext) {
+    await Animal.query().delete()
+
+    return response.ok({ message: 'Animais excluídos com sucesso!' })
   }
 }
