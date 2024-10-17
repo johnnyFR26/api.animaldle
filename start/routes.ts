@@ -21,7 +21,7 @@ router.post('/user', [UsersController, 'store'])
 router.post('/login', [UsersController, 'login'])
 router.get('/user', [UsersController, 'index'])
 router.get('/games', [GamesController, 'index'])
-router.post('/games/:id', [GamesController, 'store'])
+router.post('/games', [GamesController, 'store'])
 
 router.get('dashboard', async ({ auth }) => {
   /**

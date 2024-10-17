@@ -1,6 +1,4 @@
-import Animal from '#models/animal'
 import Game from '#models/game'
-import User from '#models/user'
 import type { HttpContext } from '@adonisjs/core/http'
 
 export default class GamesController {
@@ -10,14 +8,9 @@ export default class GamesController {
   }
 
   async store({ request, response }: HttpContext) {
-    const animalsIds = await Animal.all()
-    const user = await User.findOrFail(request.params)
-    const randonNumber = Math.floor(Math.random() * animalsIds.length)
-    const game = await Game.create({
-      animalId: animalsIds[randonNumber].id,
-      userId: user.id,
-    })
-
+    const gameData = request.only(['id', 'animal_Id', 'user_Id'])
+    console.log(gameData)
+    const game = await Game.create(gameData)
     return response.created(game)
   }
 }

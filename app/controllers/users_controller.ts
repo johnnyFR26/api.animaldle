@@ -6,12 +6,12 @@ import { DbAccessTokensProvider } from '@adonisjs/auth/access_tokens'
 export default class UsersController {
   static accessTokens = DbAccessTokensProvider.forModel(User)
 
-  async store({ request }: HttpContext) {
+  async store({ request, response }: HttpContext) {
     const data = request.only(['fullName', 'phone', 'password'])
     const user = await User.create(data)
     const password = await hash.make('password')
     const token = await User.accessTokens.create(user)
-    return { user, token, password }
+    return response.created({ user, token, password })
   }
 
   async login({ request, response }: HttpContext) {

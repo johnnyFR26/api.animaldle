@@ -60,3 +60,14 @@ Content-Type: application/json
 POST http://localhost:3333/games/12
 Content-Type: application/json
 
+###
+
+POST http://localhost:3333/games
+Content-Type: application/json
+
+{
+    "id": "f116f063-60ef-49f9-a405-d8487f4a3234",
+    "userId": 44,
+    "animalId": 408
+}
+

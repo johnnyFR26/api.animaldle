@@ -9,10 +9,10 @@ export default class Game extends BaseModel {
   declare id: number
 
   @column()
-  declare animalId: number
+  declare animal_Id: number
 
   @column()
-  declare userId: number
+  declare user_Id: number
 
   @column.dateTime({ autoCreate: true })
   declare createdAt: DateTime
