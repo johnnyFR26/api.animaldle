@@ -11,7 +11,7 @@ export default class UsersController {
     const user = await User.create(data)
     const password = await hash.make('password')
     const token = await User.accessTokens.create(user)
-    return { user, token }
+    return { user, token, password }
   }
 
   async login({ request, response }: HttpContext) {
