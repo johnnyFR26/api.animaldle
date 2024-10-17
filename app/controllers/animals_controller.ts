@@ -1,10 +1,9 @@
 // import type { HttpContext } from '@adonisjs/core/http'
 import Animal from '#models/animal'
 import { HttpContext } from '@adonisjs/core/http'
-import axios from 'axios'
 
 export default class AnimalsController {
-  async store({ request, response }: HttpContext) {
+  async store({ response }: HttpContext) {
     try {
       // Usando import dinâmico para carregar o JSON
       const animalsData = await import('../../animalsjson.json', {
@@ -16,6 +15,7 @@ export default class AnimalsController {
           // Cadastrando os animais no banco de dados
           await Animal.create({
             name: animal.name,
+            //@ts-ignore
             characteristics: animal.characteristics,
           })
         }

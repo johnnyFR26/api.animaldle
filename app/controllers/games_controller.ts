@@ -11,7 +11,7 @@ export default class GamesController {
 
   async store({ request, response }: HttpContext) {
     const animalsIds = await Animal.all()
-    const user = await User.findOrFail(request.id)
+    const user = await User.findOrFail(request.params)
     const randonNumber = Math.floor(Math.random() * animalsIds.length)
     const game = await Game.create({
       animalId: animalsIds[randonNumber].id,
