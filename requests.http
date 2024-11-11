@@ -62,12 +62,23 @@ Content-Type: application/json
 
 ###
 
-POST http://localhost:3333/games
+POST http://localhost:3333/games/localhost:3333/games/update
 Content-Type: application/json
 
 {
     "id": "bf0849fc-217a-4f0c-910a-38d1ab95535e",
-    "userId": 44,
+    "userId": 284,
     "animalId": 408
 }
 
+
+### 
+
+POST http://localhost:3333/games/update
+Content-Type: application/json
+
+{
+  "id": "bf0849fc-217a-4f0c-910a-38d1ab95535e",
+  "animalId": 413,
+  "userId": 284,
+}

@@ -13,4 +13,12 @@ export default class GamesController {
     const game = await Game.create(gameData)
     return response.created(game)
   }
+
+  async update({ request, response }: HttpContext) {
+    const gameData = request.only(['id', 'animalId', 'userId'])
+    const game = await Game.findOrFail(gameData.id)
+    game.merge(gameData)
+    await game.save()
+    return response.ok(game)
+  }
 }
