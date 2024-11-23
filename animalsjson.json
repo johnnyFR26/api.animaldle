@@ -1,200 +1,46 @@
 [
   {
-    "name": "Caribu",
+    "name": "Corvo",
     "characteristics": {
-      "Habitat": "Tundras e florestas do norte da América",
-      "Filo": "Chordata",
-      "Estado de conservação": "Vulnerável",
-      "Dieta": "Herbívoro",
-      "Método de reprodução": "Sexuado",
-      "Classe": "Mammalia"
-    }
-  },
-  {
-    "name": "Bisonte-americano",
-    "characteristics": {
-      "Habitat": "Pradarias e pastagens da América do Norte",
-      "Filo": "Chordata",
-      "Estado de conservação": "Pouco preocupante",
-      "Dieta": "Herbívoro",
-      "Método de reprodução": "Sexuado",
-      "Classe": "Mammalia"
-    }
-  },
-  {
-    "name": "Antílope-saltador",
-    "characteristics": {
-      "Habitat": "Savana e pastagens da África",
-      "Filo": "Chordata",
-      "Estado de conservação": "Pouco preocupante",
-      "Dieta": "Herbívoro",
-      "Método de reprodução": "Sexuado",
-      "Classe": "Mammalia"
-    }
-  },
-  {
-    "name": "Gazela-de-thomson",
-    "characteristics": {
-      "Habitat": "Savana e pastagens da África Oriental",
-      "Filo": "Chordata",
-      "Estado de conservação": "Pouco preocupante",
-      "Dieta": "Herbívoro",
-      "Método de reprodução": "Sexuado",
-      "Classe": "Mammalia"
-    }
-  },
-  {
-    "name": "Impala",
-    "characteristics": {
-      "Habitat": "Savana e áreas abertas da África",
-      "Filo": "Chordata",
-      "Estado de conservação": "Pouco preocupante",
-      "Dieta": "Herbívoro",
-      "Método de reprodução": "Sexuado",
-      "Classe": "Mammalia"
-    }
-  },
-  {
-    "name": "Cabra-das-montanhas-rochosas",
-    "characteristics": {
-      "Habitat": "Montanhas e áreas rochosas da América do Norte",
-      "Filo": "Chordata",
-      "Estado de conservação": "Pouco preocupante",
-      "Dieta": "Herbívoro",
-      "Método de reprodução": "Sexuado",
-      "Classe": "Mammalia"
-    }
-  },
-  {
-    "name": "Ovelha-bighorn",
-    "characteristics": {
-      "Habitat": "Montanhas da América do Norte",
-      "Filo": "Chordata",
-      "Estado de conservação": "Pouco preocupante",
-      "Dieta": "Herbívoro",
-      "Método de reprodução": "Sexuado",
-      "Classe": "Mammalia"
-    }
-  },
-  {
-    "name": "Ibex-alpino",
-    "characteristics": {
-      "Habitat": "Montanhas da Europa e Ásia",
-      "Filo": "Chordata",
-      "Estado de conservação": "Vulnerável",
-      "Dieta": "Herbívoro",
-      "Método de reprodução": "Sexuado",
-      "Classe": "Mammalia"
-    }
-  },
-  {
-    "name": "Cão-selvagem-africano",
-    "characteristics": {
-      "Habitat": "Savana e áreas abertas da África",
-      "Filo": "Chordata",
-      "Estado de conservação": "Ameaçado",
-      "Dieta": "Carnívoro",
-      "Método de reprodução": "Sexuado",
-      "Classe": "Mammalia"
-    }
-  },
-  {
-    "name": "Raposa-do-ártico",
-    "characteristics": {
-      "Habitat": "Tundras do Ártico",
+      "Habitat": "Florestas, áreas urbanas e rurais",
       "Filo": "Chordata",
       "Estado de conservação": "Pouco preocupante",
       "Dieta": "Onívoro",
       "Método de reprodução": "Sexuado",
-      "Classe": "Mammalia"
+      "Classe": "Aves"
     }
   },
   {
-    "name": "Lobo-cinzento",
+    "name": "Crocodilo",
     "characteristics": {
-      "Habitat": "Florestas e áreas abertas na América do Norte e Eurasia",
+      "Habitat": "Rios, pântanos e áreas de água doce ou salgada",
       "Filo": "Chordata",
-      "Estado de conservação": "Pouco preocupante",
+      "Estado de conservação": "Varia por espécie (de vulnerável a pouco preocupante)",
       "Dieta": "Carnívoro",
       "Método de reprodução": "Sexuado",
-      "Classe": "Mammalia"
+      "Classe": "Reptilia"
     }
   },
   {
-    "name": "Foca-monge-do-havaí",
+    "name": "Borboleta",
     "characteristics": {
-      "Habitat": "Praias e águas costeiras do Havai",
-      "Filo": "Chordata",
-      "Estado de conservação": "Ameaçado",
-      "Dieta": "Carnívoro",
+      "Habitat": "Florestas, prados, jardins e áreas urbanas",
+      "Filo": "Arthropoda",
+      "Estado de conservação": "Pouco preocupante (algumas espécies ameaçadas)",
+      "Dieta": "Néctar (adulto), herbívoro (lagarta)",
       "Método de reprodução": "Sexuado",
-      "Classe": "Mammalia"
+      "Classe": "Insecta"
     }
   },
   {
-    "name": "Leão-marinho-sul-americano",
+    "name": "Abelha",
     "characteristics": {
-      "Habitat": "Praias e costas da América do Sul",
-      "Filo": "Chordata",
-      "Estado de conservação": "Vulnerável",
-      "Dieta": "Carnívoro",
+      "Habitat": "Áreas rurais, urbanas, florestas e campos",
+      "Filo": "Arthropoda",
+      "Estado de conservação": "Varia por espécie (algumas ameaçadas)",
+      "Dieta": "Néctar e pólen",
       "Método de reprodução": "Sexuado",
-      "Classe": "Mammalia"
-    }
-  },
-  {
-    "name": "Morsa-do-atlântico",
-    "characteristics": {
-      "Habitat": "Águas frias do Ártico e subártico",
-      "Filo": "Chordata",
-      "Estado de conservação": "Vulnerável",
-      "Dieta": "Carnívoro",
-      "Método de reprodução": "Sexuado",
-      "Classe": "Mammalia"
-    }
-  },
-  {
-    "name": "Orca",
-    "characteristics": {
-      "Habitat": "Oceanos de todo o mundo",
-      "Filo": "Chordata",
-      "Estado de conservação": "Pouco preocupante",
-      "Dieta": "Carnívoro",
-      "Método de reprodução": "Sexuado",
-      "Classe": "Mammalia"
-    }
-  },
-  {
-    "name": "Baleia-azul",
-    "characteristics": {
-      "Habitat": "Oceanos de todo o mundo",
-      "Filo": "Chordata",
-      "Estado de conservação": "Criticamente ameaçado",
-      "Dieta": "Carnívoro (plâncton)",
-      "Método de reprodução": "Sexuado",
-      "Classe": "Mammalia"
-    }
-  },
-  {
-    "name": "Golfinho-nariz-de-garrafa",
-    "characteristics": {
-      "Habitat": "Oceanos e águas costeiras de todo o mundo",
-      "Filo": "Chordata",
-      "Estado de conservação": "Pouco preocupante",
-      "Dieta": "Carnívoro",
-      "Método de reprodução": "Sexuado",
-      "Classe": "Mammalia"
-    }
-  },
-  {
-    "name": "Tubarão-branco",
-    "characteristics": {
-      "Habitat": "Oceanos de todo o mundo",
-      "Filo": "Chordata",
-      "Estado de conservação": "Vulnerável",
-      "Dieta": "Carnívoro",
-      "Método de reprodução": "Sexuado",
-      "Classe": "Chondrichthyes"
+      "Classe": "Insecta"
     }
   }
 ]
